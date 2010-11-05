@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{386F246C-E999-D2B0-494E-16852364E57D}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_0_0;UNITY_3_0;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Player\Player.cs" />
+     <Compile Include="Assets\Scripts\AmbienteMusic.cs" />
+     <Compile Include="Assets\Scripts\Button.cs" />
+     <Compile Include="Assets\Scripts\CGUIElement.cs" />
+     <Compile Include="Assets\Scripts\CGUIMenueManager.cs" />
+     <Compile Include="Assets\Scripts\ComponentUtil.cs" />
+     <Compile Include="Assets\Scripts\Demo.cs" />
+     <Compile Include="Assets\Scripts\Field.cs" />
+     <Compile Include="Assets\Scripts\FieldManager.cs" />
+     <Compile Include="Assets\Scripts\Game.cs" />
+     <Compile Include="Assets\Scripts\Grid.cs" />
+     <Compile Include="Assets\Scripts\Income.cs" />
+     <Compile Include="Assets\Scripts\Interface.cs" />
+     <Compile Include="Assets\Scripts\Menue.cs" />
+     <Compile Include="Assets\Scripts\MenueCreator.cs" />
+     <Compile Include="Assets\Scripts\Unit.cs" />
+     <Compile Include="Assets\Scripts\UnitHolder.cs" />
+     <Compile Include="Assets\Scripts\UnitLoader.cs" />
+     <None Include="Assets\s_MenueScreen\menue.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

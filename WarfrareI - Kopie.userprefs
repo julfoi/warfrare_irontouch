@@ -1,0 +1,25 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" ctype="Workspace" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Interface.cs" ctype="Workbench">
+    <Files>
+      <File FileName="Assets\Scripts\Interface.cs" Line="24" Column="43" />
+      <File FileName="Assets\Scripts\Field.cs" Line="7" Column="24" />
+      <File FileName="Assets\Scripts\Unit.cs" Line="8" Column="19" />
+      <File FileName="Assets\Scripts\UnitLoader.cs" Line="44" Column="6" />
+      <File FileName="Assets\Scripts\UnitHolder.cs" Line="47" Column="31" />
+      <File FileName="Assets\Scripts\AmbienteMusic.cs" Line="14" Column="36" />
+      <File FileName="Assets\Scripts\Menue.cs" Line="41" Column="21" />
+      <File FileName="Assets\Scripts\Button.cs" Line="18" Column="61" />
+      <File FileName="Assets\Scripts\CGUIElement.cs" Line="30" Column="1" />
+      <File FileName="Assets\Scripts\MenueCreator.cs" Line="16" Column="3" />
+      <File FileName="Assets\Scripts\Demo.cs" Line="7" Column="1" />
+      <File FileName="Assets\Scripts\CGUIMenueManager.cs" Line="19" Column="75" />
+      <File FileName="Assets\Scripts\ComponentUtil.cs" Line="10" Column="39" />
+      <File FileName="Assets\Scripts\Game.cs" Line="9" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches ctype="PinnedWatchStore" />
+</Properties>

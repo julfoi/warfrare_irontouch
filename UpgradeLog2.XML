@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="WarfrareI">
+</Property><Property Name="Solution File" Value="C:\Users\fait\Documents\WarfrareI\WarfrareI.sln">
+</Property><Property Name="User Options File" Value="C:\Users\fait\Documents\WarfrareI\WarfrareI.suo">
+</Property><Property Name="Date" Value="Samstag, 4. September 2010">
+</Property><Property Name="Time" Value="17:57">
+</Property><Property Name="Log Number" Value="2">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="WarfrareI.sln" Description="File successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\WarfrareI.sln">
+</Event><Event ErrorLevel="0" Project="" Source="WarfrareI.suo" Description="File successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\WarfrareI.suo">
+</Event><Event ErrorLevel="0" Project="WarfrareI" Source="WarfrareI.csproj" Description="Project file successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\WarfrareI.csproj">
+</Event><Event ErrorLevel="0" Project="WarfrareI" Source="WarfrareI.csproj.user" Description="Project user file successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\WarfrareI.csproj.user">
+</Event><Event ErrorLevel="0" Project="WarfrareI" Source="Assets\Scripts\Field.cs" Description="File successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\Assets\Scripts\Field.cs">
+</Event><Event ErrorLevel="0" Project="WarfrareI" Source="Assets\Scripts\Grid.cs" Description="File successfully backed up as C:\Users\fait\Documents\WarfrareI\Backup1\Assets\Scripts\Grid.cs">
+</Event><Event ErrorLevel="0" Project="WarfrareI" Source="WarfrareI.csproj" Description="The project file does not require conversion.">
+</Event><Event ErrorLevel="3" Project="WarfrareI" Source="WarfrareI.csproj" Description="No Conversion Required">
+</Event><Event ErrorLevel="0" Project="" Source="WarfrareI.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="WarfrareI.sln" Description="Converted">
+</Event></UpgradeLog>
